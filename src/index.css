@@ -24,3 +24,12 @@ code {
 .description {
   text-transform: capitalize;
 }
+
+@keyframes move {
+  from {transform: translateX(0);}
+  to {transform: translateX(20px);}
+}
+img {
+  animation: move 2s infinite;
+  animation-direction: alternate-reverse;
+}
